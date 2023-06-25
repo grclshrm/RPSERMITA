@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 70px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  #choices {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 1px 300px;
+  }
+  
+  #choices button {
+    border: none;
+    border-radius: 5px;
+    padding: 30px 90px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #choices button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #choices button img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 10px;
+    height: 10px;
+  }
+  
+  #choices button span {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  #result {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4CAF50;
+  }
